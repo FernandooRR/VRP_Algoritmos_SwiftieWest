@@ -1,3 +1,5 @@
+import itertools
+
 def calculate_distance(route, distance_matrix):
     total_distance = 0
     for i in range(len(route) - 1):
